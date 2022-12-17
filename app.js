@@ -20,3 +20,15 @@ app.get('/', (req, res) => {
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);
 
+const port = process.env.PORT || 3000;
+
+const start = async () => {
+    try {
+        // Connect to DB
+        app.listen(port, console.log(`Server is listening to PORT ${port}...`))
+    } catch (error) {
+        console.log(error);
+    }
+}
+start();
+
