@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_shop_api",
+  "version": "1.0.0",
+  "description": "This is the guided project from Coding Addict youtube channel. Link is https://www.youtube.com/watch?v=rltfdjcXjmk&t=11254s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarazIITK/nodejs_shop_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarazIITK/nodejs_shop_api/issues"
+  },
+  "homepage": "https://github.com/FarazIITK/nodejs_shop_api#readme"
+}
