@@ -6,7 +6,8 @@ const getAllProductsStatic = async (req, res) => {
 }
 
 const getAllProducts = async (req, res) => {
-    return res.status(200).json({ msg: 'Testing products route' });
+    const products = await Product.find(req.query);
+    return res.status(200).json({ products, nbHits: products.length });
 }
 
 module.exports = {
